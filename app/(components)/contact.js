@@ -6,8 +6,6 @@ import emailjs from "@emailjs/browser";
 const Contact = ({ template, service, publicKey }) => {
   const form = useRef();
 
-  console.log("Client:  " + template, service);
-
   const sendEmail = (e) => {
     e.preventDefault();
 
