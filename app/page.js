@@ -18,6 +18,8 @@ const Projects = dynamic(() => import("./(components)/projects"), {
 export default function Home() {
   const { TEMPLATE_ID, SERVICE_ID, PUBLIC_KEY } = process.env;
 
+  console.log(TEMPLATE_ID);
+
   return (
     <>
       <Hero />
