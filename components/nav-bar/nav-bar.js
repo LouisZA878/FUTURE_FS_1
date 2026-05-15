@@ -21,19 +21,19 @@ const Navbar = () => {
     <nav className={activeState}>
       <ul className="container-links">
         <li>
-          <Link href="#about">
+          <Link href="#about" aria-label="About me">
             <IoPersonCircle />
             <span>About Me</span>
           </Link>
         </li>
         <li>
-          <Link href="#experience">
+          <Link href="#experience" aria-label="Experience">
             <FaNetworkWired />
             <span>Experience</span>
           </Link>
         </li>
         <li>
-          <Link href="#projects">
+          <Link href="#projects" aria-label="Projects">
             <CgWebsite />
             <span>Projects</span>
           </Link>

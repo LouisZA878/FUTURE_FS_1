@@ -30,7 +30,7 @@ const Projects = () => {
           </Link>
           <h3>
             <span>Heaven Theory</span>
-            <Link href={projectOne}>
+            <Link href={projectOne} aria-label="Heaven Theory Link">
               <FaLinkedin />
             </Link>
           </h3>
@@ -43,7 +43,7 @@ const Projects = () => {
           </Link>
           <h3>
             <span>Ecommerce Backend API</span>
-            <Link href={projectTwo}>
+            <Link href={projectTwo} aria-label="Ecommerce Backend API Link">
               <FaLinkedin />
             </Link>
           </h3>
@@ -60,7 +60,10 @@ const Projects = () => {
           </Link>
           <h3>
             <span>Chatsworth Jumping Castle Hire</span>
-            <Link href={projectThree}>
+            <Link
+              href={projectThree}
+              aria-label="Chatsworth Jumping Castle Hire Link"
+            >
               <CgWebsite />
             </Link>
           </h3>
