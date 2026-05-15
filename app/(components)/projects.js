@@ -34,7 +34,7 @@ const Projects = () => {
               <FaLinkedin />
             </Link>
           </h3>
-          <p>A minimalist and simple website for a any furniture store.</p>
+          <p>A minimalist and simple website for any furniture store.</p>
         </div>
 
         <div className="project">

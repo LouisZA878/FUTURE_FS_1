@@ -59,11 +59,11 @@ const About = () => {
           <div className="interest">
             <h4>Prefered Working Area</h4>
             <p>
-              <span>{` "" `}</span>I Heavily prefer working around the Backend
-              of any given website, however I enjoy Frontend related work as
-              well. DevOps / Linux related fields also interest me greatly,
-              whether its orchestrating Docker containers / Kubernetes pods.
-              Creating or maintaing CI / CD pipelines etc.
+              <span>{` "" `}</span>I prefer working around the Backend of any
+              given website, however I enjoy Frontend related work as well.
+              DevOps / Linux related fields also interest me greatly, whether
+              its orchestrating Docker containers / Kubernetes pods. Creating or
+              maintaining CI / CD pipelines etc.
               <span>{` "" `}</span>
             </p>
           </div>
