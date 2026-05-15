@@ -3,7 +3,7 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-const ContactForm = () => {
+const ContactForm = ({ template, service, publicKey }) => {
   const form = useRef();
 
   const sendEmail = (e) => {
