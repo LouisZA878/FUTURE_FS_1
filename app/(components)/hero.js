@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import HeroImg from "../../public/images/HeroProfile.jpeg";
+
 const Hero = () => {
   return (
     <section className="hero">
@@ -24,11 +26,7 @@ const Hero = () => {
       </div>
       <div className="container-image">
         <div className="image">
-          <Image
-            src="/images/HeroProfile.jpeg"
-            alt="Image of the profile owner, Louis"
-            fill
-          />
+          <Image src={HeroImg} alt="Image of the profile owner, Louis" fill />
         </div>
       </div>
     </section>
