@@ -1,0 +1,38 @@
+import Image from "next/image";
+import Link from "next/link";
+
+const Hero = () => {
+  return (
+    <section className="hero">
+      <div className="information">
+        <p className="intro">Hey there! The names</p>
+        <h2 className="name">Louis François Du Toit</h2>
+        <p className="role">Fullstack Web Developer</p>
+        <p className="role">Devops Engineer</p>
+        <div className="buttons">
+          <Link
+            className="btn"
+            href="/files/Louis-2025-CV.docx"
+            download="LouisCV.docx"
+          >
+            Resume
+          </Link>
+          <Link className="btn" href="https://github.com/LouisZA878">
+            Github
+          </Link>
+        </div>
+      </div>
+      <div className="container-image">
+        <div className="image">
+          <Image
+            src="/images/HeroProfile.jpeg"
+            alt="Image of the profile owner, Louis"
+            fill
+          />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
