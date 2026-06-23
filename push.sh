@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# execute example
+# - ./push.sh "Initital commit"
+
+
 echo "[*] Preparing the .mjs files"
 
 mv next.config.mjs next.config.mjs-dev

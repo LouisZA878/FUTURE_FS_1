@@ -35,6 +35,16 @@ const Experience = () => {
             </li>
           </ul>
         </div>
+        <div className="box">
+          <h3>Future Interns</h3>
+          <h5>Fullstack Web Developer Intern / 1 Month / Remote</h5>
+          <ul>
+            <li>
+              Developed, hosted and maintained frontend applications, with
+              NextJS.
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
   );
