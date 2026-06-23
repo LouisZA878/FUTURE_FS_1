@@ -17,3 +17,7 @@ echo "[*] Preparing git push"
 git add .
 git commit -m "$1"
 git push origin master
+
+echo "[*] Preparing .mjs files"
+mv next.config.mjs next.config.mjs-prod
+mv next.config.mjs-dev next.config.mjs
