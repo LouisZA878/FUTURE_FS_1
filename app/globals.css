@@ -539,9 +539,13 @@ li .value {
   width: 100%;
 }
 .container-box .box {
-  border: 1px solid var(--border);
   padding: 16px;
   border-radius: 6px;
+  margin: 0 0 12px 0;
+
+  box-shadow:
+    0 8px 24px hsl(237 95% 3% / 0.28),
+    inset 0 1px 0 hsl(224 58% 16%);
 }
 .container-box .box h3 {
   color: var(--text);
@@ -595,8 +599,8 @@ li .value {
     min-height: 200px;
   }
 
-  .container-box:nth-child(odd) .box {
-    margin: 0 0 0 calc(100% - 400px);
+  .container-box .box:nth-child(even) {
+    margin: 0 0 12px calc(100% - 550px);
   }
 }
 
