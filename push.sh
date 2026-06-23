@@ -12,12 +12,17 @@ mv next.config.mjs-prod next.config.mjs
 echo "[*] Did the prod file get renamed?"
 ls next.config.mjs
 
-echo "[*] Preparing git push"
+echo "[*] Preparing git commit"
 
 git add .
 git commit -m "$1"
-git push origin master
 
 echo "[*] Preparing .mjs files"
 mv next.config.mjs next.config.mjs-prod
 mv next.config.mjs-dev next.config.mjs
+
+
+echo "[*] Preparing git push"
+git push origin master
+
+
